@@ -1,7 +1,7 @@
 # Student Performance Prediction
 ## EndToEnd MLProject
 
-## *Overview*
+## Overview
 This project is an end-to-end machine learning application built using Flask, which predicts students' math scores based on various features such as gender, parental education, and more. The dataset used for this project has been cleaned, analyzed, and visualized through various data science techniques, followed by the training and evaluation of multiple machine learning models.
 
 ## Project Features
@@ -24,7 +24,7 @@ This project is an end-to-end machine learning application built using Flask, wh
 ## EDA Insights
 ### Below are some visualizations from the Exploratory Data Analysis phase:
 
-1) Distribution of Scores by Gender:
+**1) Distribution of Scores by Gender:**
 ![alt text](image2.png)
 
 2) Relationship between Parental Education and Scores:
