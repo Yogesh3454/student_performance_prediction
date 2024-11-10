@@ -22,60 +22,45 @@ This project is an end-to-end machine learning application built using Flask, wh
 ### Below are some visualizations from the Exploratory Data Analysis phase:
 
 1) Distribution of Scores by Gender:
+![alt text](image2.png)
 
 2) Relationship between Parental Education and Scores:
+![alt text](image1.png)
 
 3) Correlation Heatmap:
 ![alt text](image.png)
 
 ## How to Run the Project
-Follow these steps to run the project on your local machine:
+### Follow these steps to run the project on your local machine:
 
-Clone the Repository:
+#### Clone the Repository:
 
-bash
-Copy code
 git clone https://github.com/Yogesh3454/student_performance_prediction.git
-cd student_performance_prediction
-Create a Virtual Environment:
 
-bash
-Copy code
-python -m venv venv
-Activate the Virtual Environment:
+#### Create a Virtual Environment:
 
-On Windows:
-bash
-Copy code
-venv\Scripts\activate
-On MacOS/Linux:
-bash
-Copy code
-source venv/bin/activate
-Install the Dependencies:
+conda create -p venv python==3.8 -y
 
-bash
-Copy code
+#### Activate the Virtual Environment:
+
+conda activate venv
+
+#### Install the Dependencies:
+
 pip install -r requirements.txt
-Run the Flask Application:
 
-bash
-Copy code
+#### Run the Flask Application:
+
 python app.py
 Access the Web App: Open your web browser and go to http://127.0.0.1:5000.
 
-Screenshots
-Home Page
 
-Prediction Page
+## Project Workflow
+- Data Collection: Loaded and explored the student dataset.
+- Data Cleaning and Preprocessing: Handled missing values, encoded categorical features, and scaled numerical data.
+- Model Training: Implemented various regression models and ensemble techniques.
+- Model Evaluation: Used metrics like R-squared and Mean Squared Error to evaluate model performance.
+- Deployment: Integrated the best model into the Flask web app.
 
-EDA Graphs
-
-Project Workflow
-Data Collection: Loaded and explored the student dataset.
-Data Cleaning and Preprocessing: Handled missing values, encoded categorical features, and scaled numerical data.
-Model Training: Implemented various regression models and ensemble techniques.
-Model Evaluation: Used metrics like R-squared and Mean Squared Error to evaluate model performance.
-Deployment: Integrated the best model into the Flask web app.
-Special Thanks
-A big shoutout to Krish Naik Sir for his invaluable guidance and resources.
+## Special Thanks
+A big shoutout to *Krish Naik Sir* for his invaluable guidance and resources.
